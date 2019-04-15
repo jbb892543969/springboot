@@ -1,0 +1,27 @@
+#开发环境
+server:
+  port: 8081
+
+spring:
+  #mysql数据库配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/manager
+    username: root
+    password: root
+  #redis数据库配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    database: 0
+    timeout: 2000ms
+    jedis:
+      pool:
+        max-idle: 8
+        max-active: 8
+        min-idle: 0
+  #JPA配置
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none

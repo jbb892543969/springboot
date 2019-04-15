@@ -1,0 +1,28 @@
+状态码示例
+
+<table>
+    <tr>
+        <td>code</td>
+        <td>含义</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>用户不存在</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>密码错误</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>用户被锁定</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>用户未登录</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>用户登出成功</td>
+    </tr>
+</table>

@@ -1,0 +1,23 @@
+spring:
+  #环境选择
+  profiles:
+    active: dev
+  #静态资源定义
+  resources:
+    static-locations: classpath:resources/static,file:${web.resources}
+  #JPA无修改命名
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  #外部静态资源位置
+  #返回JSON时间处理
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+web:
+  resources: D:/serverResources
+  upload-img: D:/serverResources/img
+#日志配置
+logging:
+  file: D:/serverResources/log/server.log
