@@ -7,5 +7,5 @@ springboot+vue学习demo
 
 运行方式: 后台配置数据库与redis 开启项目，前台npm install后npm run dev 运行 账号admin，密码123456
  
- ![Image text](https://gitee.com/jbb892543969/springboot/blob/master/vueDemo/src/assets/1.png)
- ![Image text](https://gitee.com/jbb892543969/springboot/tree/master/vueDemo/src/assets/2.png)
+ ![Image text](https://gitee.com/jbb892543969/springboot/raw/master/vueDemo/src/assets/1.png)
+ ![Image text](https://gitee.com/jbb892543969/springboot/raw/master/vueDemo/src/assets/2.png)
