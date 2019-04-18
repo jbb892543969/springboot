@@ -1,9 +1,6 @@
 package com.jbb.manager.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Objects;
 
 /**
@@ -13,6 +10,7 @@ import java.util.Objects;
  * @Date 2018-07-23 16:02
  **/
 @Entity
+@Table(name = "menu")
 public class Menu {
     private int id;
     private String name;

@@ -52,6 +52,8 @@ const sha1 = {
       var oldc = c;
       var oldd = d;
       var olde = e;
+      var t;
+      var SHA1Value;
       for (var j = 0; j < 80; j++) {
         if (j < 16) w[j] = x[i + j];
         else w[j] = this.rol(w[j - 3] ^ w[j - 8] ^ w[j - 14] ^ w[j - 16], 1);
@@ -76,4 +78,4 @@ const sha1 = {
     return this.SHA1(sIn).toLowerCase();
   }
 }
-window.$sha1 = sha1;
+export default sha1

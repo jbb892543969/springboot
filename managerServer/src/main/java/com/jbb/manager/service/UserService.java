@@ -1,7 +1,7 @@
 package com.jbb.manager.service;
 
-import com.jbb.manager.entity.QMUser;
 import com.jbb.manager.entity.dto.UserDTO;
+import com.jbb.manager.entity.querydsl.QMUser;
 import com.jbb.manager.repository.qrepository.QUserRepository;
 import com.jbb.manager.util.DateUtil;
 import com.jbb.manager.util.StringUtil;

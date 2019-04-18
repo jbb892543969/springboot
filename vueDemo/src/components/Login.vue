@@ -66,7 +66,7 @@
                         return false;
                     }
                     //sha1加密
-                    this.user.password = $sha1.SHA1(this.user.password)
+                    this.user.password = this.$sha1.SHA1(this.user.password)
                     userLogin(this.$qs.stringify(this.user)).then(response => {
                         let res=response.data;
                         if(res.code == 200) {
